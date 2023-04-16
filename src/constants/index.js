@@ -42,19 +42,19 @@ export const navLinks = [
 
 const services = [
 	{
-		title: "Web Developer",
+		title: "Front-end Developer",
 		icon: web,
 	},
 	{
-		title: "React Native Developer",
+		title: "React Developer",
 		icon: mobile,
 	},
 	{
-		title: "Backend Developer",
+		title: "React Native Developer",
 		icon: backend,
 	},
 	{
-		title: "Content Creator",
+		title: "Web Designer",
 		icon: creator,
 	},
 ]
@@ -116,24 +116,24 @@ const technologies = [
 
 const experiences = [
 	{
-		title: "Front-end Developer",
+		title: "Intern Front-end Developer",
 		company_name: "Front-end Simplified",
 		icon: web,
 		iconBg: "#383E56",
-		date: "Sep 2022 - Feb 2023",
+		date: "Sep 2022 to Feb 2023",
 		points: [
-			"Developing and maintaining web applications using React.js and other related technologies.",
-			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-			"Implementing responsive design and ensuring cross-browser compatibility.",
-			"Participating in code reviews and providing constructive feedback to other developers.",
+			"Led an e-com application project, redesign the UI led to 15% better in conversion rate.",
+			"Oversaw concept mock-up and wireframe design to further user satisfaction by 35%.",
+			"Updated the code base to better suit the new requirements, improved performance by 15%.",
+			"Collaborated with VP of sales that led to an average 10% growth per month in leads.",
 		],
 	},
 	{
-		title: "React & Shopify Developer",
+		title: "Web Developer",
 		company_name: "SB Agency",
 		icon: web,
 		iconBg: "#E6DEDD",
-		date: "April 2021 - May 2022",
+		date: "April 2021 to May 2022",
 		points: [
 			"Developing and maintaining web applications using React.js and other related technologies.",
 			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -146,33 +146,32 @@ const experiences = [
 		company_name: "Freelancing",
 		icon: web,
 		iconBg: "#383E56",
-		date: "Jan 2022 - Jan 2023",
+		date: "May 2020 to Jan 2021",
 		points: [
-			"Developing and maintaining web applications using React.js and other related technologies.",
-			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-			"Implementing responsive design and ensuring cross-browser compatibility.",
-			"Participating in code reviews and providing constructive feedback to other developers.",
+			"Created mockups of website designs using design software such as Sketch, Adobe XD, or Figma to present to clients for approval before moving to the wireframing stage.",
+			"Produced wireframes using design software or hand-drawn sketches to map out the structure of the website, including the placement of content, images, and navigation elements.",
+			"Designed and developed websites using WebFlow, HTML5 & CSS3, and JavaScript, and occasionally used WordPress for clients who needed a content management system. This included implementing responsive design, optimizing website speed and performance, and ensuring cross-browser compatibility.",
 		],
 	},
-	{
-		title: "Full stack Developer",
-		company_name: "Meta",
-		icon: meta,
-		iconBg: "#E6DEDD",
-		date: "Jan 2023 - Present",
-		points: [
-			"Developing and maintaining web applications using React.js and other related technologies.",
-			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-			"Implementing responsive design and ensuring cross-browser compatibility.",
-			"Participating in code reviews and providing constructive feedback to other developers.",
-		],
-	},
+	// {
+	// 	title: "Full stack Developer",
+	// 	company_name: "Meta",
+	// 	icon: meta,
+	// 	iconBg: "#E6DEDD",
+	// 	date: "Jan 2023 - Present",
+	// 	points: [
+	// 		"Developing and maintaining web applications using React.js and other related technologies.",
+	// 		"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+	// 		"Implementing responsive design and ensuring cross-browser compatibility.",
+	// 		"Participating in code reviews and providing constructive feedback to other developers.",
+	// 	],
+	// },
 ]
 
 const testimonials = [
 	{
 		testimonial:
-			"I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+			"I thought it was impossible to make a website as beautiful as our product, but Tin proved me wrong.",
 		name: "Sara Lee",
 		designation: "CFO",
 		company: "Acme Co",
@@ -180,7 +179,7 @@ const testimonials = [
 	},
 	{
 		testimonial:
-			"I've never met a web developer who truly cares about their clients' success like Rick does.",
+			"I've never met a web developer who truly cares about their clients' success like Tin does.",
 		name: "Chris Brown",
 		designation: "COO",
 		company: "DEF Corp",
@@ -188,7 +187,7 @@ const testimonials = [
 	},
 	{
 		testimonial:
-			"After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+			"After Tin optimized our website, our traffic increased by 50%. We can't thank them enough!",
 		name: "Lisa Wang",
 		designation: "CTO",
 		company: "456 Enterprises",
@@ -197,6 +196,28 @@ const testimonials = [
 ]
 
 const projects = [
+	{
+		name: "DevJobs",
+		description:
+			"Implemented the newest React Native and other tools to build a full mobile app for browsing jobs related to the tech industry",
+		tags: [
+			{
+				name: "react native",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "mobile",
+				color: "green-text-gradient",
+			},
+			{
+				name: "tailwind",
+				color: "pink-text-gradient",
+			},
+		],
+		image: carrent,
+		source_code_link: "https://github.com/",
+		demo_link: "https://github.com/",
+	},
 	{
 		name: "Adminis",
 		description:
@@ -217,9 +238,10 @@ const projects = [
 		],
 		image: carrent,
 		source_code_link: "https://github.com/",
+		demo_link: "https://github.com/",
 	},
 	{
-		name: "Shopit",
+		name: "ClickCart",
 		description:
 			"Full stack e-com web application that enables business owners to establish their online presence for their brands. Also it provides a customizable platform to sell and market products efficiently.",
 		tags: [
@@ -238,18 +260,19 @@ const projects = [
 		],
 		image: jobit,
 		source_code_link: "https://github.com/",
+		demo_link: "https://github.com/",
 	},
 	{
-		name: "Trip Guide",
+		name: "Airbnb Clone",
 		description:
-			"A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+			"A comprehensive travel booking platform that allows users to book stays, hotels, and rentals, and offers curated recommendations for popular destinations.",
 		tags: [
 			{
 				name: "nextjs",
 				color: "blue-text-gradient",
 			},
 			{
-				name: "supabase",
+				name: "tailwind",
 				color: "green-text-gradient",
 			},
 			{
@@ -259,6 +282,7 @@ const projects = [
 		],
 		image: tripguide,
 		source_code_link: "https://github.com/",
+		demo_link: "https://github.com/",
 	},
 ]
 

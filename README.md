@@ -36,4 +36,4 @@ This project was created by Your Name. Special thanks to the creators of the fol
 - TailwindCSS
 - ThreeJS
 - React Three Fiber
- - React Hooks
+- React Hooks
