@@ -26,6 +26,10 @@ import {
 	devjobs,
 	adminis,
 	clickcart,
+	shield,
+	locker,
+	minecraft,
+	computer,
 } from "../assets"
 
 export const navLinks = [
@@ -59,6 +63,25 @@ const services = [
 	{
 		title: "Web Designer",
 		icon: creator,
+	},
+]
+
+const learnings = [
+	{
+		title: "Cyber Security",
+		icon: shield,
+	},
+	{
+		title: "Software Development",
+		icon: computer,
+	},
+	{
+		title: "Python + Data Science",
+		icon: locker,
+	},
+	{
+		title: "Artifical Inteligence",
+		icon: minecraft,
 	},
 ]
 
@@ -216,6 +239,14 @@ const projects = [
 				name: "tailwind",
 				color: "pink-text-gradient",
 			},
+			{
+				name: "axios",
+				color: "red-text-gradient",
+			},
+			{
+				name: "apis",
+				color: "blue-text-gradient",
+			},
 		],
 		image: devjobs,
 		source_code_link: "https://github.com/",
@@ -325,4 +356,11 @@ const projects = [
 	},
 ]
 
-export { services, technologies, experiences, testimonials, projects }
+export {
+	services,
+	learnings,
+	technologies,
+	experiences,
+	testimonials,
+	projects,
+}

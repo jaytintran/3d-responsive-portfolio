@@ -8,6 +8,11 @@ import github from "./github.png"
 import menu from "./menu.svg"
 import close from "./close.svg"
 
+import computer from "./computer.png"
+import locker from "./locker.png"
+import minecraft from "./minecraft.png"
+import shield from "./shield.png"
+
 import css from "./tech/css.png"
 import docker from "./tech/docker.png"
 import figma from "./tech/figma.png"
@@ -67,4 +72,8 @@ export {
 	devjobs,
 	adminis,
 	clickcart,
+	locker,
+	computer,
+	shield,
+	minecraft,
 }

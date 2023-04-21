@@ -2,6 +2,7 @@ import React from "react"
 import { motion } from "framer-motion"
 import { styles } from "../styles"
 import { services } from "../constants"
+import { learnings } from "../constants"
 import { fadeIn, textVariant } from "../utils/motion"
 import { Tilt } from "react-tilt"
 import { SectionWrapper } from "../hoc"
@@ -49,6 +50,33 @@ const About = () => {
 			<div className="mt-20 flex flex-wrap gap-10">
 				{services.map((service, index) => (
 					<ServiceCard key={service.title} index={index} {...service} />
+				))}
+			</div>
+
+			<motion.div>
+				<p
+					className={styles.sectionSubText}
+					id="about"
+					style={{ paddingTop: "8rem" }}
+				>
+					My Potenial Learnings
+				</p>
+				<h2 className={styles.sectionHeadText}>Tech Interests</h2>
+			</motion.div>
+
+			<motion.p
+				variants={fadeIn("", "", 0.1, 1)}
+				className="mt-4 text-secondary text-[17px] max-w-3xl"
+			>
+				I'm always a curious person who takes interests in learning different
+				skills. I know in today age, we should be an expert in one field but
+				also openly to learn different skillsets. Besides I hope those knowledge
+				will aid me sometime in the future.
+			</motion.p>
+
+			<div className="mt-20 flex flex-wrap gap-10">
+				{learnings.map((learning, index) => (
+					<ServiceCard key={learning.title} index={index} {...learning} />
 				))}
 			</div>
 		</>
