@@ -23,6 +23,9 @@ import {
 	jobit,
 	tripguide,
 	threejs,
+	devjobs,
+	adminis,
+	clickcart,
 } from "../assets"
 
 export const navLinks = [
@@ -214,7 +217,7 @@ const projects = [
 				color: "pink-text-gradient",
 			},
 		],
-		image: carrent,
+		image: devjobs,
 		source_code_link: "https://github.com/",
 		demo_link: "https://github.com/",
 	},
@@ -228,6 +231,10 @@ const projects = [
 				color: "blue-text-gradient",
 			},
 			{
+				name: "MERN",
+				color: "blue-text-gradient",
+			},
+			{
 				name: "mongodb",
 				color: "green-text-gradient",
 			},
@@ -235,8 +242,24 @@ const projects = [
 				name: "tailwind",
 				color: "pink-text-gradient",
 			},
+			{
+				name: "refine",
+				color: "text-red-700",
+			},
+			{
+				name: "crud",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "auth",
+				color: "text-green-300",
+			},
+			{
+				name: "charts",
+				color: "green-text-gradient",
+			},
 		],
-		image: carrent,
+		image: adminis,
 		source_code_link: "https://github.com/",
 		demo_link: "https://github.com/",
 	},
@@ -246,19 +269,31 @@ const projects = [
 			"Full stack e-com web application that enables business owners to establish their online presence for their brands. Also it provides a customizable platform to sell and market products efficiently.",
 		tags: [
 			{
-				name: "react",
+				name: "reactjs",
 				color: "blue-text-gradient",
 			},
 			{
-				name: "restapi",
+				name: "nextjs",
 				color: "green-text-gradient",
 			},
 			{
-				name: "scss",
+				name: "ssr",
 				color: "pink-text-gradient",
 			},
+			{
+				name: "sanity",
+				color: "text-red-700",
+			},
+			{
+				name: "stripe",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "context",
+				color: "text-green-300",
+			},
 		],
-		image: jobit,
+		image: clickcart,
 		source_code_link: "https://github.com/",
 		demo_link: "https://github.com/",
 	},
@@ -270,6 +305,10 @@ const projects = [
 			{
 				name: "nextjs",
 				color: "blue-text-gradient",
+			},
+			{
+				name: "reactjs",
+				color: "text-red-700",
 			},
 			{
 				name: "tailwind",

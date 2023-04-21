@@ -22,10 +22,8 @@ const Hero = () => {
 						className={`${styles.heroSubText} mt-2 text-white-100`}
 						style={{ lineHeight: "1.35" }}
 					>
-						I design websites and develop web applications with JavaScript,
-						Typescript, ReactJS, NextJS, and many more. <br />
-						My objective is to solve technical problems while creating engaging,
-						user-friendly web applications.
+						For short, I design websites and develop web applications with
+						JavaScript, Typescript, ReactJS, NextJS, and many more.
 					</p>
 				</div>
 			</div>

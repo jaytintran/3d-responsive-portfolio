@@ -30,6 +30,9 @@ import tesla from "./company/tesla.png"
 import carrent from "./carrent.png"
 import jobit from "./jobit.png"
 import tripguide from "./tripguide.png"
+import devjobs from "./devjobs.png"
+import adminis from "./adminis.png"
+import clickcart from "./clickcart.png"
 
 export {
 	logo,
@@ -61,4 +64,7 @@ export {
 	carrent,
 	jobit,
 	tripguide,
+	devjobs,
+	adminis,
+	clickcart,
 }
