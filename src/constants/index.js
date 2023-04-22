@@ -136,7 +136,7 @@ const technologies = [
 	},
 	{
 		name: "react native",
-		icon: react,
+		icon: reactjs,
 	},
 ]
 
