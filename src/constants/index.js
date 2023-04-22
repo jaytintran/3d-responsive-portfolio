@@ -135,8 +135,8 @@ const technologies = [
 		icon: figma,
 	},
 	{
-		name: "docker",
-		icon: docker,
+		name: "react native",
+		icon: react,
 	},
 ]
 
