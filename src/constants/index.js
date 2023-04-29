@@ -148,7 +148,7 @@ const experiences = [
 		iconBg: "#383E56",
 		date: "Sep 2022 to Feb 2023",
 		points: [
-			"Led an e-com application project, redesign the UI led to 15% better in conversion rate.",
+			"Led an admin panel project, redesign and coded the UI led to 15% better in downtime.",
 			"Oversaw concept mock-up and wireframe design to further user satisfaction by 35%.",
 			"Updated the code base to better suit the new requirements, improved performance by 15%.",
 			"Collaborated with VP of sales that led to an average 10% growth per month in leads.",
@@ -249,7 +249,7 @@ const projects = [
 			},
 		],
 		image: devjobs,
-		source_code_link: "https://github.com/",
+		source_code_link: "https://github.com/jaytintran/devjobs",
 		demo_link: "https://github.com/",
 	},
 	{
@@ -291,7 +291,7 @@ const projects = [
 			},
 		],
 		image: adminis,
-		source_code_link: "https://github.com/",
+		source_code_link: "https://github.com/jaytintran/adminis",
 		demo_link: "https://github.com/",
 	},
 	{
@@ -325,7 +325,7 @@ const projects = [
 			},
 		],
 		image: clickcart,
-		source_code_link: "https://github.com/",
+		source_code_link: "https://github.com/jaytintran/clickcart",
 		demo_link: "https://github.com/",
 	},
 	{
@@ -351,7 +351,7 @@ const projects = [
 			},
 		],
 		image: tripguide,
-		source_code_link: "https://github.com/",
+		source_code_link: "https://github.com/jaytintran/airbnb-clone",
 		demo_link: "https://github.com/",
 	},
 ]
