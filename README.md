@@ -19,7 +19,7 @@ This is a visually appealing 3D portfolio website built using React.js, Vite, Fr
 - Contact section allows visitors to get in touch with the user
 
 ## Installation
-- Clone the repository: git clone https://github.com/username/repo-name.git
+- Clone the repository: git clone https://github.com/jaytintran/3d-responsive-portfolio.git
 - Navigate to the project directory: cd repo-name
 - Install dependencies: npm install
 - Start the development server: npm run dev
@@ -27,8 +27,7 @@ This is a visually appealing 3D portfolio website built using React.js, Vite, Fr
 - Build the project: npm run build
 - Deploy the dist folder to a web server
 
-## Credits
-This project was created by Your Name. Special thanks to the creators of the following technologies:
+## Tech Used
 
 - React.js
 - Vite
