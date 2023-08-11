@@ -143,11 +143,24 @@ const technologies = [
 
 const experiences = [
 	{
+		title: "Full Stack Developer",
+		company_name: "Meowcart",
+		icon: web,
+		iconBg,
+		date: "",
+		points: [
+			"Participated in building the front-end of a direct notification app for store owners enabling their customers to get live notifications from their order.",
+			"Built a full stack project for a car dealership client developing their full-stack cars showcasing website.",
+			"Developed and maintained headless e-commercial storefronts using Shopify Hydrogen, React.js, Remix and its complementary technologies.",
+			"Worked with clients and back end developers to create a user friendly and visually appealing experience for the user.",
+		],
+	},
+	{
 		title: "Front-end Developer",
 		company_name: "NTSoft",
 		icon: web,
 		iconBg: "#383E56",
-		date: "Feb 2023 to July 2023",
+		date: "",
 		points: [
 			"Implemented ASP.NET Web Forms, and gain overall proficiency in C#, ADO.NET, and SQL Server. Built interfaces with Bootstrap, jQuery, AJAX, and JavaScript with functionality and interactivity.",
 			"Participated in migration team to port the front-end to the  modern React.js stack, improve efficiency, optimization, and help boost the comunication workload up to 30%.",
@@ -160,7 +173,7 @@ const experiences = [
 		company_name: "Ultraverse",
 		icon: web,
 		iconBg: "#383E56",
-		date: "Sep 2022 to Feb 2023",
+		date: "",
 		points: [
 			"Led an admin panel project, redesign and coded the UI led to 15% better in downtime.",
 			"Oversaw concept mock-up and wireframe design to further user satisfaction by 35%.",
@@ -168,31 +181,31 @@ const experiences = [
 			"Collaborated with VP of sales that led to an average 10% growth per month in leads.",
 		],
 	},
-	{
-		title: "Web Developer",
-		company_name: "SB Agency",
-		icon: web,
-		iconBg: "#E6DEDD",
-		date: "April 2021 to May 2022",
-		points: [
-			"Developing and maintaining web applications using React.js and other related technologies.",
-			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-			"Implementing responsive design and ensuring cross-browser compatibility.",
-			"Participating in code reviews and providing constructive feedback to other developers.",
-		],
-	},
-	{
-		title: "Web Designer",
-		company_name: "Freelancing",
-		icon: web,
-		iconBg: "#383E56",
-		date: "May 2020 to Jan 2021",
-		points: [
-			"Created mockups of website designs using design software such as Sketch, Adobe XD, or Figma to present to clients for approval before moving to the wireframing stage.",
-			"Produced wireframes using design software or hand-drawn sketches to map out the structure of the website, including the placement of content, images, and navigation elements.",
-			"Designed and developed websites using WebFlow, HTML5 & CSS3, and JavaScript, and occasionally used WordPress for clients who needed a content management system. This included implementing responsive design, optimizing website speed and performance, and ensuring cross-browser compatibility.",
-		],
-	},
+	// {
+	// 	title: "Web Developer",
+	// 	company_name: "SB Agency",
+	// 	icon: web,
+	// 	iconBg: "#E6DEDD",
+	// 	date: "April 2021 to May 2022",
+	// 	points: [
+	// 		"Developing and maintaining web applications using React.js and other related technologies.",
+	// 		"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+	// 		"Implementing responsive design and ensuring cross-browser compatibility.",
+	// 		"Participating in code reviews and providing constructive feedback to other developers.",
+	// 	],
+	// },
+	// {
+	// 	title: "Web Designer",
+	// 	company_name: "Freelancing",
+	// 	icon: web,
+	// 	iconBg: "#383E56",
+	// 	date: "May 2020 to Jan 2021",
+	// 	points: [
+	// 		"Created mockups of website designs using design software such as Sketch, Adobe XD, or Figma to present to clients for approval before moving to the wireframing stage.",
+	// 		"Produced wireframes using design software or hand-drawn sketches to map out the structure of the website, including the placement of content, images, and navigation elements.",
+	// 		"Designed and developed websites using WebFlow, HTML5 & CSS3, and JavaScript, and occasionally used WordPress for clients who needed a content management system. This included implementing responsive design, optimizing website speed and performance, and ensuring cross-browser compatibility.",
+	// 	],
+	// },
 	// {
 	// 	title: "Full stack Developer",
 	// 	company_name: "Meta",
@@ -271,7 +284,7 @@ const projects = [
 		name: "Adminis",
 		process: "done",
 		description:
-			"Web-based admin dahsboard that allows business owners to manage their expenses, revenues, projects, clients and employees. It provides a convenient and efficient solution for management needs.",
+			"Web-based admin dashboard that allows business owners to manage their expenses, revenues, projects, clients and employees. It provides a convenient and efficient solution for management needs.",
 		tags: [
 			{
 				name: "react",
