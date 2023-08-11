@@ -7,6 +7,25 @@ import { projects } from "../constants"
 import { fadeIn, textVariant } from "../utils/motion"
 import { styles } from "../styles"
 
+const backdropStyles = {
+	position: "fixed",
+	top: 0,
+	left: 0,
+	width: "100%",
+	height: "100%",
+	backgroundColor: "rgba(0, 0, 0, 0.5)", // Use your preferred color and opacity
+	zIndex: 999, // Adjust the z-index as needed
+}
+
+const upcomingStyles = {
+	position: "absolute",
+	top: "10px" /* Adjust the top position as needed */,
+	left: "10px" /* Adjust the left position as needed */,
+	backgroundColor: "yellow" /* Use your preferred color */,
+	color: "black" /* Use your preferred color */,
+	padding: "5px 10px" /* Adjust the padding as needed */,
+}
+
 const ProjectCard = ({
 	index,
 	name,
@@ -14,12 +33,24 @@ const ProjectCard = ({
 	tags,
 	image,
 	source_code_link,
+	progress,
 }) => (
 	<motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
 		<Tilt
 			options={{ max: 45, scale: 1, speed: 400 }}
 			className="bg-tertiary p-5 rounded-2xl sm:w-[500px] w-full lg:h-[450px] h-auto"
 		>
+			{progress === "ongoing" && (
+				<div style={backdropStyles}>
+					<p
+						style={upcomingStyles}
+						className="rounded-2xl text-xs font-semibold"
+					>
+						Upcoming
+					</p>
+				</div>
+			)}
+
 			<div className="relative w-full h-[230px]">
 				<img
 					src={image}

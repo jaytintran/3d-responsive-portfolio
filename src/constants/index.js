@@ -22,6 +22,7 @@ import {
 	carrent,
 	jobit,
 	tripguide,
+	cryptoket,
 	threejs,
 	devjobs,
 	adminis,
@@ -142,8 +143,21 @@ const technologies = [
 
 const experiences = [
 	{
+		title: "Front-end Developer",
+		company_name: "NTSoft",
+		icon: web,
+		iconBg: "#383E56",
+		date: "Feb 2023 to July 2023",
+		points: [
+			"Implemented ASP.NET Web Forms, and gain overall proficiency in C#, ADO.NET, and SQL Server. Built interfaces with Bootstrap, jQuery, AJAX, and JavaScript with functionality and interactivity.",
+			"Participated in migration team to port the front-end to the  modern React.js stack, improve efficiency, optimization, and help boost the comunication workload up to 30%.",
+			"Collaborated with a team to create a robust and secure web application, leveraging modern front-end framework & library. Utilized SQL and SQL Server for efficient data storage, retrieval, and manipulation, ensuring seamless data integration and accuracy.",
+			"Contributed to the full development lifecycle, from requirements gathering to deployment, ensuring adherence to project timelines and delivering a high-quality product. Demonstrated strong problem-solving skills and attention to detail, resulting in a reliable and efficient admin panel and management web app.",
+		],
+	},
+	{
 		title: "Intern Front-end Developer",
-		company_name: "Front-end Simplified",
+		company_name: "Ultraverse",
 		icon: web,
 		iconBg: "#383E56",
 		date: "Sep 2022 to Feb 2023",
@@ -224,6 +238,7 @@ const testimonials = [
 const projects = [
 	{
 		name: "DevJobs",
+		progress: "done",
 		description:
 			"Implemented the newest React Native and other tools to build a full mobile app for browsing jobs related to the tech industry",
 		tags: [
@@ -254,6 +269,7 @@ const projects = [
 	},
 	{
 		name: "Adminis",
+		process: "done",
 		description:
 			"Web-based admin dahsboard that allows business owners to manage their expenses, revenues, projects, clients and employees. It provides a convenient and efficient solution for management needs.",
 		tags: [
@@ -281,14 +297,6 @@ const projects = [
 				name: "crud",
 				color: "blue-text-gradient",
 			},
-			{
-				name: "auth",
-				color: "text-green-300",
-			},
-			{
-				name: "charts",
-				color: "green-text-gradient",
-			},
 		],
 		image: adminis,
 		source_code_link: "https://github.com/jaytintran/adminis",
@@ -296,6 +304,7 @@ const projects = [
 	},
 	{
 		name: "ClickCart",
+		progress: "ongoing",
 		description:
 			"Full stack e-com web application that enables business owners to establish their online presence for their brands. Also it provides a customizable platform to sell and market products efficiently.",
 		tags: [
@@ -330,6 +339,7 @@ const projects = [
 	},
 	{
 		name: "Airbnb Clone",
+		progress: "ongoing",
 		description:
 			"A comprehensive travel booking platform that allows users to book stays, hotels, and rentals, and offers curated recommendations for popular destinations.",
 		tags: [
@@ -351,6 +361,64 @@ const projects = [
 			},
 		],
 		image: tripguide,
+		source_code_link: "https://github.com/jaytintran/airbnb-clone",
+		demo_link: "https://github.com/",
+	},
+	{
+		name: "Mache NFT",
+		progress: "ongoing",
+		description:
+			"A full stack Marketplace developed and built with modern tech stacks like ReactJS, Hardhat, Ethereum...",
+		tags: [
+			{
+				name: "nextjs",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "reactjs",
+				color: "text-red-700",
+			},
+			{
+				name: "tailwind",
+				color: "green-text-gradient",
+			},
+			{
+				name: "css",
+				color: "pink-text-gradient",
+			},
+		],
+		image: cryptoket,
+		source_code_link: "https://github.com/jaytintran/airbnb-clone",
+		demo_link: "https://github.com/",
+	},
+	{
+		name: "Liberteous",
+		progress: "ongoing",
+		description:
+			"A full stack web3 crowdfunding web app with an secure crowdfunding experience. Metamask and smart contract integration, effortlessly interact with the Ethereum blockchain",
+		tags: [
+			{
+				name: "ethereum",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "reactjs",
+				color: "text-red-700",
+			},
+			{
+				name: "tailwind",
+				color: "green-text-gradient",
+			},
+			{
+				name: "blockchain",
+				color: "pink-text-gradient",
+			},
+			{
+				name: "solidity",
+				color: "pink-text-gradient",
+			},
+		],
+		image: cryptoket,
 		source_code_link: "https://github.com/jaytintran/airbnb-clone",
 		demo_link: "https://github.com/",
 	},

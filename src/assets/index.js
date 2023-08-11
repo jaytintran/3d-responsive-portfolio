@@ -38,8 +38,10 @@ import tripguide from "./tripguide.png"
 import devjobs from "./devjobs.png"
 import adminis from "./adminis.png"
 import clickcart from "./clickcart.png"
+import cryptoket from "./cryptoket.jpeg"
 
 export {
+	cryptoket,
 	logo,
 	backend,
 	creator,
