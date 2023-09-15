@@ -499,6 +499,34 @@ const projects = [
 		demo_link: "https://emoviebox.netlify.app/",
 		image: "https://jaytintran.github.io/assets/movie-box.png",
 	},
+	{
+		name: "Maganime",
+		process: "done",
+		description:
+			"Front-end web app ranking animes. Developed mainly using JavaScript, a capstone project for the course FES",
+		tags: [
+			{
+				name: "javascript",
+				color: "orange-text-gradient",
+			},
+			{
+				name: "rapidapi",
+				color: "green",
+			},
+			{
+				name: "material-ui",
+				color: "green-text-gradient",
+			},
+			{
+				name: "redux",
+				color: "blue-text-gradient",
+			},
+		],
+		category: "frontend",
+		source_code_link: "https://github.com/jaytintran/maganime",
+		demo_link: "https://jaytintran.github.io/maganime/",
+		image: "https://jaytintran.github.io/assets/maganime.png",
+	},
 	// {
 	// 	name: "DevJobs",
 	// 	progress: "done",
