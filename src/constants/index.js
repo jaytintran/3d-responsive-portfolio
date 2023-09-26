@@ -294,7 +294,7 @@ const projects = [
 	},
 	{
 		name: "Adminis",
-		process: "done",
+		process: "progress",
 		description:
 			"Web-based admin dashboard that allows business owners to manage their expenses, revenues, projects, clients and employees. It provides a convenient and efficient solution for management needs.",
 		tags: [
@@ -330,7 +330,7 @@ const projects = [
 	},
 	{
 		name: "ClickCart",
-		progress: "ongoing",
+		progress: "progress",
 		description:
 			"Full stack e-com web application that enables business owners to establish their online presence for their brands. Also it provides a customizable platform to sell and market products efficiently.",
 		tags: [
@@ -366,7 +366,7 @@ const projects = [
 	},
 	{
 		name: "Airbnb Clone",
-		progress: "ongoing",
+		progress: "progress",
 		description:
 			"A comprehensive travel booking platform that allows users to book stays, hotels, and rentals, and offers curated recommendations for popular destinations.",
 		tags: [
