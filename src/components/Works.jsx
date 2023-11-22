@@ -34,6 +34,7 @@ const progressStyles = {
 	left: "10px" /* Adjust the left position as needed */,
 	backgroundColor: "lightblue" /* Use your preferred color */,
 	color: "black" /* Use your preferred color */,
+	zIndex: "10",
 	padding: "5px 10px" /* Adjust the padding as needed */,
 }
 
@@ -53,7 +54,7 @@ const ProjectCard = ({
 	>
 		{progress === "ongoing" ||
 			(progress === "progress" && (
-				<div style={backdropStyles}>
+				<div>
 					<p
 						style={progressStyles}
 						className="rounded-2xl text-xs font-semibold"
