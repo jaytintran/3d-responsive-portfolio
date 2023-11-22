@@ -32,7 +32,6 @@ const progressStyles = {
 	position: "absolute",
 	top: "10px" /* Adjust the top position as needed */,
 	left: "10px" /* Adjust the left position as needed */,
-	backgroundColor: "lightblue" /* Use your preferred color */,
 	color: "black" /* Use your preferred color */,
 	zIndex: "10",
 	padding: "5px 10px" /* Adjust the padding as needed */,
@@ -52,17 +51,25 @@ const ProjectCard = ({
 		options={{ max: 45, scale: 1, speed: 400 }}
 		className="bg-tertiary p-5 rounded-2xl sm:w-[500px] w-full lg:h-[450px] h-auto"
 	>
-		{progress === "ongoing" ||
-			(progress === "progress" && (
-				<div>
-					<p
-						style={progressStyles}
-						className="rounded-2xl text-xs font-semibold"
-					>
-						{progress === "ongoing" ? "Upcoming" : "In Progress"}
-					</p>
-				</div>
-			))}
+		{progress === "progress" ? (
+			<div>
+				<p
+					style={progressStyles}
+					className="bg-blue-300 rounded-2xl text-xs font-semibold"
+				>
+					{progress === "ongoing" ? "Upcoming" : "In Progress"}
+				</p>
+			</div>
+		) : (
+			<div>
+				<p
+					style={progressStyles}
+					className="rounded-2xl bg-amber-300 text-xs font-semibold"
+				>
+					{progress === "done" ? "Upcoming" : "Done"}
+				</p>
+			</div>
+		)}
 
 		<div className="relative w-full h-[230px]">
 			<img
@@ -112,7 +119,7 @@ const ProjectCard = ({
 )
 
 const Works = () => {
-	const [activeFilter, setActiveFilter] = useState("fullstack")
+	const [activeFilter, setActiveFilter] = useState("all")
 
 	const handleFilterClick = (filterValue) => {
 		setActiveFilter(filterValue)

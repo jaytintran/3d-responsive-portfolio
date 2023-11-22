@@ -24,6 +24,7 @@ import {
 	jobit,
 	tripguide,
 	cryptoket,
+	nikewebsite,
 	threejs,
 	devjobs,
 	adminis,
@@ -292,109 +293,108 @@ const projects = [
 		demo_link: "https://github.com/",
 		category: "fullstack",
 	},
-	{
-		name: "Adminis",
-		process: "progress",
-		description:
-			"Web-based admin dashboard that allows business owners to manage their expenses, revenues, projects, clients and employees. It provides a convenient and efficient solution for management needs.",
-		tags: [
-			{
-				name: "react",
-				color: "blue-text-gradient",
-			},
-			{
-				name: "MERN",
-				color: "blue-text-gradient",
-			},
-			{
-				name: "mongodb",
-				color: "green-text-gradient",
-			},
-			{
-				name: "tailwind",
-				color: "pink-text-gradient",
-			},
-			{
-				name: "refine",
-				color: "text-red-700",
-			},
-			{
-				name: "crud",
-				color: "blue-text-gradient",
-			},
-		],
-		image: adminis,
-		source_code_link: "https://github.com/jaytintran/adminis",
-		demo_link: "https://github.com/",
-		category: "fullstack",
-	},
-	{
-		name: "ClickCart",
-		progress: "progress",
-		description:
-			"Full stack e-com web application that enables business owners to establish their online presence for their brands. Also it provides a customizable platform to sell and market products efficiently.",
-		tags: [
-			{
-				name: "reactjs",
-				color: "blue-text-gradient",
-			},
-			{
-				name: "nextjs",
-				color: "green-text-gradient",
-			},
-			{
-				name: "ssr",
-				color: "pink-text-gradient",
-			},
-			{
-				name: "sanity",
-				color: "text-red-700",
-			},
-			{
-				name: "stripe",
-				color: "blue-text-gradient",
-			},
-			{
-				name: "context",
-				color: "text-green-300",
-			},
-		],
-		image: clickcart,
-		source_code_link: "https://github.com/jaytintran/clickcart",
-		demo_link: "https://github.com/",
-		category: "fullstack",
-	},
-	{
-		name: "Airbnb Clone",
-		progress: "progress",
-		description:
-			"A comprehensive travel booking platform that allows users to book stays, hotels, and rentals, and offers curated recommendations for popular destinations.",
-		tags: [
-			{
-				name: "nextjs",
-				color: "blue-text-gradient",
-			},
-			{
-				name: "reactjs",
-				color: "text-red-700",
-			},
-			{
-				name: "tailwind",
-				color: "green-text-gradient",
-			},
-			{
-				name: "css",
-				color: "pink-text-gradient",
-			},
-		],
-		image: tripguide,
-		source_code_link: "https://github.com/jaytintran/airbnb-clone",
-		demo_link: "https://github.com/",
-		category: "fullstack",
-	},
+	// {
+	// 	name: "Adminis",
+	// 	process: "progress",
+	// 	description:
+	// 		"Web-based admin dashboard that allows business owners to manage their expenses, revenues, projects, clients and employees. It provides a convenient and efficient solution for management needs.",
+	// 	tags: [
+	// 		{
+	// 			name: "react",
+	// 			color: "blue-text-gradient",
+	// 		},
+	// 		{
+	// 			name: "MERN",
+	// 			color: "blue-text-gradient",
+	// 		},
+	// 		{
+	// 			name: "mongodb",
+	// 			color: "green-text-gradient",
+	// 		},
+	// 		{
+	// 			name: "tailwind",
+	// 			color: "pink-text-gradient",
+	// 		},
+	// 		{
+	// 			name: "refine",
+	// 			color: "text-red-700",
+	// 		},
+	// 		{
+	// 			name: "crud",
+	// 			color: "blue-text-gradient",
+	// 		},
+	// 	],
+	// 	image: adminis,
+	// 	source_code_link: "https://github.com/jaytintran/adminis",
+	// 	demo_link: "https://github.com/",
+	// 	category: "fullstack",
+	// },
+	// {
+	// 	name: "ClickCart",
+	// 	progress: "progress",
+	// 	description:
+	// 		"Full stack e-com web application that enables business owners to establish their online presence for their brands. Also it provides a customizable platform to sell and market products efficiently.",
+	// 	tags: [
+	// 		{
+	// 			name: "reactjs",
+	// 			color: "blue-text-gradient",
+	// 		},
+	// 		{
+	// 			name: "nextjs",
+	// 			color: "green-text-gradient",
+	// 		},
+	// 		{
+	// 			name: "ssr",
+	// 			color: "pink-text-gradient",
+	// 		},
+	// 		{
+	// 			name: "sanity",
+	// 			color: "text-red-700",
+	// 		},
+	// 		{
+	// 			name: "stripe",
+	// 			color: "blue-text-gradient",
+	// 		},
+	// 		{
+	// 			name: "context",
+	// 			color: "text-green-300",
+	// 		},
+	// 	],
+	// 	image: clickcart,
+	// 	source_code_link: "https://github.com/jaytintran/clickcart",
+	// 	demo_link: "https://github.com/",
+	// 	category: "fullstack",
+	// },
+	// {
+	// 	name: "Airbnb Clone",
+	// 	progress: "progress",
+	// 	description:
+	// 		"A comprehensive travel booking platform that allows users to book stays, hotels, and rentals, and offers curated recommendations for popular destinations.",
+	// 	tags: [
+	// 		{
+	// 			name: "nextjs",
+	// 			color: "blue-text-gradient",
+	// 		},
+	// 		{
+	// 			name: "reactjs",
+	// 			color: "text-red-700",
+	// 		},
+	// 		{
+	// 			name: "tailwind",
+	// 			color: "green-text-gradient",
+	// 		},
+	// 		{
+	// 			name: "css",
+	// 			color: "pink-text-gradient",
+	// 		},
+	// 	],
+	// 	image: tripguide,
+	// 	source_code_link: "https://github.com/jaytintran/airbnb-clone",
+	// 	demo_link: "https://github.com/",
+	// 	category: "fullstack",
+	// },
 
 	// ================== UX UI WEB DESIGN PROJECTS
-
 	{
 		name: "Elecar",
 		process: "done",
@@ -445,7 +445,30 @@ const projects = [
 	},
 
 	// ================== FRONT-END PROJECTS
-
+	{
+		name: "Saigon Nike Store",
+		process: "done",
+		description:
+			"Offers customers an easy way to browse and purchase the latest sportswear online. Developed using React, it features a sleek, modern UI with Tailwind CSS for styling.",
+		tags: [
+			{
+				name: "reactjs",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "tailwind",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "vite",
+				color: "blue-text-gradient",
+			},
+		],
+		category: "frontend",
+		source_code_link: "https://github.com/jaytintran/utube-react-app",
+		demo_link: "https://utube-v1.netlify.app/",
+		image: nikewebsite,
+	},
 	{
 		name: "UTube",
 		process: "done",
