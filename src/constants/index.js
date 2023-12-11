@@ -465,8 +465,8 @@ const projects = [
 			},
 		],
 		category: "frontend",
-		source_code_link: "https://github.com/jaytintran/utube-react-app",
-		demo_link: "https://utube-v1.netlify.app/",
+		source_code_link: "https://github.com/jaytintran/nike-store-react",
+		demo_link: "https://nike-store-react-eight.vercel.app/",
 		image: nikewebsite,
 	},
 	{
