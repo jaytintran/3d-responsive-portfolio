@@ -126,7 +126,7 @@ const Works = () => {
 	}
 
 	const filteredProjects =
-		activeFilter === "all"
+		activeFilter === "frontend"
 			? projects
 			: projects.filter((project) => project.category === activeFilter)
 
