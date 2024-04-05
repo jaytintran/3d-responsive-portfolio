@@ -119,14 +119,14 @@ const ProjectCard = ({
 )
 
 const Works = () => {
-	const [activeFilter, setActiveFilter] = useState("all")
+	const [activeFilter, setActiveFilter] = useState("frontend")
 
 	const handleFilterClick = (filterValue) => {
 		setActiveFilter(filterValue)
 	}
 
 	const filteredProjects =
-		activeFilter === "frontend"
+		activeFilter === "all"
 			? projects
 			: projects.filter((project) => project.category === activeFilter)
 
